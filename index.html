@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/js/all.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+<body>
+<!-- =============== START MENU BAR =============  -->
+<div class="bar-container">
+    <div class="bar">
+        <h3>Mohamed</h3>
+        <ul>
+            <a href="#"><li class="active"><span class="material-symbols-outlined">dashboard </span><p>Dashboard</p></li></a>
+            <a href="index2.html"><li><span class="material-symbols-outlined">settings </span><p>Settings</p></li></a>
+            <a href="index3.html"><li><span class="material-symbols-outlined">person </span><p>Profile</p></li></a>
+            <a href="index4.html"><li><span class="material-symbols-outlined">timeline </span><p>Projects</p></li></a>
+            <a href="index5.html"><li><span class="material-symbols-outlined">school </span><p>Courses</p></li></a>
+            <a href="#"><li><span class="material-symbols-outlined">account_circle </span><p>Firends</p></li></a>
+            <a href="index7.html"><li><span class="material-symbols-outlined">description </span><p>Files</p></li></a>
+            <a href="index8.html"><li><span class="material-symbols-outlined">featured_play_list </span><p>Plans</p></li></a>
+        </ul>
+    </div>
+</div>
+<!-- =============== END MENU BAR =============  -->
+
+<!-- =============== START MAIN PAGE =============  -->
+    <main>
+        <!-- HEADER -->
+        <header>
+            <div class="search">
+                <span class="material-symbols-outlined">search</span>
+                <input type="search" placeholder="Search Keyword">
+            </div>
+            <div class="items">
+                <div class="icon-bell"><i class="fa-regular fa-bell"></i><span class="point"></span></div>
+                <div class="user"><img src="images/user.png" alt=""></div>
+            </div>
+        </header>
+        <!-- DASHBOARD -->
+        <div class="dashboard">
+            <div class="title">Dashboard</div>
+            <div class="dashboard-boxes">
+<!-- ======== BOX 1 ===================================== -->
+                <section class="box1">
+                    <img class="user" src="images/user.png" alt="">
+                    <div class="top">
+                        <div class="left">
+                            <h3>Welcome</h3>
+                            <p>Mohamed</p>
+                        </div>
+                        <img src="images/dash1.jpg" alt="">
+                    </div>
+                    <div class="bottom">
+                            <section>
+                                <p>Mohamed ShalaSh</p>
+                                <p>Developer</p>
+                            </section>
+                            <section>
+                                <p>80</p>
+                                <p>Projects</p>
+                            </section>
+                            <section>
+                                <p>$ 5800</p>
+                                <p>Earned</p>
+                            </section>
+                    </div>
+                    <div class="button"><button type="submit">Profile</button></div>
+                </section>
+<!-- ======== BOX 2 ===================================== -->
+                <section class="box2">
+                    <div class="top">
+                        <div class="left">
+                            <h3>Quick Draft</h3>
+                            <p>Write A Draft For Your Idea</p>
+                        </div>
+                    </div>
+                    <input type="text" name="" placeholder="Title"><br>
+                    <textarea name="" id="" cols="30" rows="5" placeholder="Your Thought"></textarea>
+                    <div class="button"><button type="submit">Save</button></div>
+                </section>
+<!-- ======== BOX 3 ===================================== -->
+                <section class="box3">
+                    <div class="top">
+                        <div class="left">
+                            <h3>Yealy Target</h3>
+                            <p>Targets Of The Year With Progress</p>
+                        </div>
+                    </div>
+                        <div class="container-progress blue-progress">
+                            <p class="logo">$</p>
+                            <div class="items-progress">
+                                <p>Money</p>
+                                <h3>$ 25.000</h3>
+                                <div class="progress">
+                                    <div class="line"></div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="container-progress orange-progress">
+                                <p class="logo"><i class="fa-solid fa-code"></i></p>
+                                <div class="items-progress">
+                                    <p>Projects</p>
+                                    <h3>24</h3>
+                                    <div class="progress">
+                                        <div class="line"></div>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="container-progress green-progress">
+                                    <p class="logo"><i class="fa-regular fa-user"></i></p>
+                                    <div class="items-progress">
+                                        <p>Team</p>
+                                        <h3>12</h3>
+                                        <div class="progress">
+                                            <div class="line"></div>
+                                        </div>
+                                    </div>
+                                    </div>
+                </section>
+<!-- ======== BOX 4 ===================================== -->
+                <section class="box4">
+                    <div class="top">
+                        <div class="left">
+                            <h3>Tickets Statistics</h3>
+                            <p>Every Thig About Support Tickets</p>
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="item">
+                            <i class="fa-solid fa-list" style="color: orange"></i>
+                            <h3>2500</h3>
+                            <p>Total</p>
+                        </div>
+                        <div class="item">
+                            <i class="fa-solid fa-spinner" style="color: blue"></i>
+                            <h3>500</h3>
+                            <p>Pending</p>
+                        </div>
+                        <div class="item">
+                            <span class="material-symbols-outlined" style="color:green;">check_circle</span>
+                            <h3>1900</h3>
+                            <p>Closed</p>
+                        </div>
+                        <div class="item">
+                            <span class="material-symbols-outlined" style="color:red;">cancel</span>
+                            <h3>100</h3>
+                            <p>Deleted</p>
+                        </div>
+                    </div>
+                </section>
+<!-- ======== BOX 5 ===================================== -->
+                <section class="box5">
+                    <div class="top">
+                        <div class="left">
+                            <h3>Latest News</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="left">
+                            <img src="images/dash2.jpg" alt="">
+                            <nav>
+                                <h3>Created SASS Section</h3>
+                                <p>New SASS Examples & Tutorials</p>
+                            </nav>
+                        </div>
+                        <p class="p">3 Days Ago</p>
+                    </div>
+                    <div class="item">
+                        <div class="left">
+                            <img src="images/dash3.jpg" alt="">
+                            <nav>
+                                <h3>Changed The Desgin</h3>
+                                <p>A Brand New Website Desgin</p>
+                            </nav>
+                        </div>
+                        <p class="p">5 Days Ago</p>
+                    </div>
+                    <div class="item">
+                        <div class="left">
+                            <img src="images/dash4.jpg" alt="">
+                            <nav>
+                                <h3>Team Increased</h3>
+                                <p>3 Developers Joined The Team</p>
+                            </nav>
+                        </div>
+                        <p class="p">7 Days Ago</p>
+                    </div>
+                    <div class="item">
+                        <div class="left">
+                            <img src="images/dash5.jpg" alt="">
+                            <nav>
+                                <h3>Added Payment Gatway</h3>
+                                <p>Many New Payment Gateways </p>
+                            </nav>
+                        </div>
+                        <p class="p">9 Days Ago</p>
+                    </div>
+                </section>
+<!-- ======== BOX 6 ===================================== -->
+                <section class="box6">
+                    <div class="top">
+                        <div class="left">
+                            <h3>Latest Tasks</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <nav>
+                            <h3>Record One New Video</h3>
+                            <p>Record Python Create Exe Projects</p>
+                        </nav>
+                        <div class="delete"><i class="fa-solid fa-trash"></i></div>
+                    </div>
+                    <div class="item">
+                        <nav>
+                            <h3>Write Article</h3>
+                            <p>Write Low Level vs High Level Language</p>
+                        </nav>
+                        <div class="delete"><i class="fa-solid fa-trash"></i></div>
+                    </div>
+                    <div class="item">
+                        <nav>
+                            <h3>Finsh Project</h3>
+                            <p>Publish Academy Programming Project</p>
+                        </nav>
+                        <div class="delete"><i class="fa-solid fa-trash"></i></div>
+                    </div>
+                    <div class="item">
+                        <nav>
+                            <del><h3 class="hide">Attend The Meeting</h3></del>
+                            <del><p class="hide">Attend The Project Bussines Analyis Meeting</p></del>
+                        </nav>
+                        <div class="delete hide"><i class="fa-solid fa-trash"></i></div>
+                    </div>
+                    <div class="item">
+                        <nav>
+                            <h3>Finish Lesson</h3>
+                            <p>Finish Teaching Flex Box</p>
+                        </nav>
+                        <div class="delete"><i class="fa-solid fa-trash"></i></div>
+                    </div>
+                </section>
+<!-- ======== BOX 7  => SAME BOX 6 IN STYLE ===================================== -->
+                <section class="box6 box7">
+                    <div class="top">
+                        <div class="left">
+                            <h3>Top Search Items</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <p class="p1">Keyword</p><p class="p1">Search Count</p>
+                    </div>
+                    <div class="item">
+                        <p>Programming</p><p class="p">200</p>
+                    </div>
+                    <div class="item">
+                        <p>Javascript</p><p class="p">180</p>
+                    </div>
+                    <div class="item">
+                        <p>PHP</p><p class="p">160</p>
+                    </div>
+                    <div class="item">
+                        <p>Code</p><p class="p">145</p>
+                    </div>
+                    <div class="item">
+                        <p>Desgin</p><p class="p">110</p>
+                    </div>
+                    <div class="item">
+                        <p>Logic</p><p class="p">95</p>
+                    </div>
+                </section>
+<!-- ======== BOX 8  => SAME BOX 5 IN STYLE ===================================== -->
+                <section class="box5 box8">
+                    <div class="top">
+                        <div class="left">
+                            <h3>Latest Uploads</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="left">
+                            <img src="images/dash6.png" alt="">
+                            <nav>
+                                <h3>My-pdf-File.pdf</h3>
+                                <p>mohamed</p>
+                            </nav>
+                        </div>
+                        <p class="p">3.11 mb</p>
+                    </div>
+                    <div class="item">
+                        <div class="left">
+                            <img src="images/dash7.png" alt="">
+                            <nav>
+                                <h3>My-avi-File.avi</h3>
+                                <p>shalash</p>
+                            </nav>
+                        </div>
+                        <p class="p">5 mb</p>
+                    </div>
+                    <div class="item">
+                        <div class="left">
+                            <img src="images/dash8.png" alt="">
+                            <nav>
+                                <h3>mo-File.Zip</h3>
+                                <p>ahmed</p>
+                            </nav>
+                        </div>
+                        <p class="p">2.3 mb</p>
+                    </div>
+                    <div class="item">
+                        <div class="left">
+                            <img src="images/dash8.png" alt="">
+                            <nav>
+                                <h3> my-File.Zip</h3>
+                                <p>___</p>
+                            </nav>
+                        </div>
+                        <p class="p">9 mb</p>
+                    </div>
+                    <div class="item">
+                        <div class="left">
+                            <img src="images/dash6.png" alt="">
+                            <nav>
+                                <h3> my-File.pdf</h3>
+                                <p>admin</p>
+                            </nav>
+                        </div>
+                        <p class="p">4.8 mb</p>
+                    </div>
+                </section>
+<!-- ======== BOX 9  => SAME BOX 5 IN STYLE ===================================== -->
+                <section class="box5 box9">
+                    <div class="top">
+                        <div class="left">
+                            <h3>Current Project Progress</h3>
+                        </div>
+                    </div>
+                    <p>Got The Project</p>
+                    <p>Started The Project</p>
+                    <p>The Project About To Finish</p>
+                    <p>Test The Project</p>
+                    <p>Finish The Project & Get Money</p>
+                </section>
+<!-- ======== BOX 10  => SAME BOX 6 IN STYLE ===================================== -->
+                <section class="box6 box10">
+                    <div class="top">
+                        <div class="left">
+                            <h3>Reminders</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <nav>
+                            <h3>Check My Tasks List</h3>
+                            <p>28/9/2022 - 12:00 am</p>
+                        </nav>
+                    </div>
+                    <div class="item">
+                        <nav>
+                            <h3>Check My Projects</h3>
+                            <p>26/9/2022 - 9:00 am</p>
+                        </nav>
+                    </div>
+                    <div class="item">
+                        <nav>
+                            <h3>Call All My Clients</h3>
+                            <p>28/9/2022 - 12:00 am</p>
+                        </nav>
+                    </div>
+                    <div class="item">
+                        <nav>
+                            <h3>Finish The Development Workshop</h3>
+                            <p>20/9/2022 - 12:00 am</p>
+                        </nav>
+                    </div>
+                </section>
+<!-- ======== BOX 11  => SAME BOX 6 IN STYLE ===================================== -->
+                <section class=" box6 box11">
+                    <div class="top">
+                        <div class="left">
+                            <h3>Latest Post</h3>
+                        </div>
+                    </div>
+                    <div class="information">
+                        <img src="images/user.png" alt="">
+                        <nav>
+                            <p>Mohamed Shalash</p>
+                            <p>About 3 Hours Ago</p>
+                        </nav>
+                    </div>
+                    <div class="para">
+                        You Can fool the people some of the time. Lorem <br> ipsum dolor sit, 
+                        amet ttt consectetur adipisicing<br> elit. Fuga, dolorem! mohamed
+                    </div>
+                    <div class="like-comment">
+                        <p><i class="fa-regular fa-heart"></i> 1.8k</p>
+                        <p><i class="fa-regular fa-comments"></i> 550</p>
+                    </div>
+                </section>
+<!-- ======== BOX 12  => SAME BOX 6 IN STYLE ===================================== -->
+                <section class=" box6 box12">
+                    <div class="top">
+                        <div class="left">
+                            <h3>Social Media Stats</h3>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <nav>
+                            <div class="icon"><i class="fa-brands fa-twitter"></i></div>
+                            <p>90K Followers</p>
+                        </nav>
+                        <button type="submit">Follow</button>
+                    </div>
+                    <div class="item">
+                        <nav>
+                            <div class="icon"><i class="fa-brands fa-facebook-f"></i></div>
+                            <p>2M Like</p>
+                        </nav>
+                        <button type="submit">Like</button>
+                    </div>
+                    <div class="item" style="background-color: #ffd1ca;">
+                        <nav>
+                            <div class="icon"  style="background-color: red;"><i class="fa-brands fa-youtube"></i></div>
+                            <p>1M Subs</p>
+                        </nav>
+                        <button type="submit" style="background-color: red;">Subscribe</button>
+                    </div>
+                    <div class="item">
+                        <nav>
+                            <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
+                            <p>70k Followers</p>
+                        </nav>
+                        <button type="submit">Follow</button>
+                    </div>
+                </section>
+            </div>
+        </div>
+<!-- ======== TABLE IN THE END PAGE ===================================== -->
+        <div class="table-dashboard">
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Finish Date</th>
+                    <th>Client</th>
+                    <th>Price</th>
+                    <th>Team</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>Mohamed Shalash</td>
+                    <td>10 may 2022</td>
+                    <td>Minstery</td>
+                    <td>$3500</td>
+                    <td>
+                        <img src="images/1.png" alt="">
+                        <img src="images/2.png" alt="">
+                        <img src="images/3.png" alt="">
+                    </td>
+                    <td><button type="submit">Completed</button></td>
+                </tr>
+                <tr>
+                    <td>Mohamed Shalash</td>
+                    <td>10 may 2022</td>
+                    <td>Minstery</td>
+                    <td>$3500</td>
+                    <td>
+                        <img src="images/1.png" alt="">
+                        <img src="images/2.png" alt="">
+                        <img src="images/3.png" alt="">
+                    </td>
+                    <td><button type="submit">Completed</button></td>
+                </tr>
+                <tr>
+                    <td>Mohamed Shalash</td>
+                    <td>10 may 2022</td>
+                    <td>Minstery</td>
+                    <td>$3500</td>
+                    <td>
+                        <img src="images/1.png" alt="">
+                        <img src="images/2.png" alt="">
+                        <img src="images/3.png" alt="">
+                    </td>
+                    <td><button type="submit">Completed</button></td>
+                </tr>
+                <tr>
+                    <td>Mohamed Shalash</td>
+                    <td>10 may 2022</td>
+                    <td>Minstery</td>
+                    <td>$3500</td>
+                    <td>
+                        <img src="images/1.png" alt="">
+                        <img src="images/2.png" alt="">
+                        <img src="images/3.png" alt="">
+                    </td>
+                    <td><button type="submit">Completed</button></td>
+                </tr>
+                <tr>
+                    <td>Mohamed Shalash</td>
+                    <td>10 may 2022</td>
+                    <td>Minstery</td>
+                    <td>$3500</td>
+                    <td>
+                        <img src="images/1.png" alt="">
+                        <img src="images/2.png" alt="">
+                        <img src="images/3.png" alt="">
+                    </td>
+                    <td><button type="submit">Completed</button></td>
+                </tr>
+                <tr>
+                    <td>Mohamed Shalash</td>
+                    <td>10 may 2022</td>
+                    <td>Minstery</td>
+                    <td>$3500</td>
+                    <td>
+                        <img src="images/1.png" alt="">
+                        <img src="images/2.png" alt="">
+                    </td>
+                    <td><button type="submit">Completed</button></td>
+                </tr>
+            </table>
+        </div>
+    </main>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
